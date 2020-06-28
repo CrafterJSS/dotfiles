@@ -23,6 +23,8 @@ Plug 'sheerun/vim-polyglot'
 Plug 'rafi/awesome-vim-colorschemes'
 Plug 'itchyny/lightline.vim'
 Plug 'ap/vim-css-color'
+Plug 'preservim/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 
 call plug#end()
 """""""""""""""""""""""""""""
@@ -94,4 +96,7 @@ set hidden
 
 " Comment block
 vnoremap <silent> <C-k> :Commentary<cr>
+
+" NERDTree
+map <C-n> :NERDTreeToggle<CR>
 
