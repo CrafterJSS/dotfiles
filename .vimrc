@@ -50,6 +50,7 @@ elseif (colorscheme == "nord")
 	" Nord Color Scheme https://nordtheme.com
 endif
 
+" Set the colorscheme using the variable
 execute "colorscheme ".colorscheme
 
 " Lightline configuration
