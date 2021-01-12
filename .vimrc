@@ -91,6 +91,11 @@ set clipboard+=unnamedplus
 " Keep Undo history on buffer change
 set hidden
 
+" Enable project-specific .vimrc's with secure options
+" From https://www.alexeyshmalko.com/2014/using-vim-as-c-cpp-ide/
+set exrc
+set secure
+
 """""""""""""""""""""""
 " Bindings
 """""""""""""""""""""""
