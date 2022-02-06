@@ -7,14 +7,17 @@ $HOME/.config/polybar/launch.sh
 # pulseaudio --kill
 # pulseaudio --start
 # ckb-next --background &
-kquitapp5 plasmashell
+#kquitapp5 plasmashell
 
-feh --bg-fill $HOME/Pictures/Wallpapers/daylight-environment-forest-idyllic-459225.jpg
+# Variables
+gap_size=12
+
+feh --bg-fill $HOME/Pictures/Wallpapers/Nordish-Dharam-Dhurandhar.jpg
 
 bspc monitor -d I II III IV
 
 bspc config border_width         1
-bspc config window_gap          12
+bspc config window_gap          $gap_size
 bspc config top_padding 20
 bspc config bottom_padding 0
 
