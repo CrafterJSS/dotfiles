@@ -1,23 +1,25 @@
 #! /bin/sh
 
-killall compton
+#killall compton
+killall picom
 sxhkd &
-compton &
-$HOME/.config/polybar/launch.sh
+#compton &
+picom &
+#$HOME/.config/polybar/launch.sh
 # pulseaudio --kill
 # pulseaudio --start
 # ckb-next --background &
-#kquitapp5 plasmashell
+kquitapp5 plasmashell
 
 # Variables
-gap_size=12
+#gap_size=12
 
 feh --bg-fill $HOME/Pictures/Wallpapers/Nordish-Dharam-Dhurandhar.jpg
 
 bspc monitor -d I II III IV
 
 bspc config border_width         1
-bspc config window_gap          $gap_size
+bspc config window_gap          12
 bspc config top_padding 20
 bspc config bottom_padding 0
 
