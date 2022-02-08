@@ -18,4 +18,3 @@ case "$1" in
 		bspc config window_gap $(( `bspc config -d focused window_gap` + 3))
 		;;
 esac
-
